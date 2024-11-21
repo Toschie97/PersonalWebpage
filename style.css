@@ -1,0 +1,12 @@
+body {
+    background: beige
+}
+
+img.headshot {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 68%;
+    border-radius: 45%;
+    margin: 0 auto;
+}
