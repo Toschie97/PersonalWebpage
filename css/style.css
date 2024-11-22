@@ -14,7 +14,8 @@ img.headshot {
 
 
 .h1-container {
-    display: flex;
+    width: 200px; /* Example width */
+    height: 100px; /* Example height */
 }
 
 
