@@ -10,3 +10,19 @@ img.headshot {
     border-radius: 45%;
     margin: 0 auto;
 }
+
+
+
+.h1-container {
+    display: flex;
+}
+
+
+.h2-container {
+    display: flex;
+    gap: 2em;
+}
+
+.h2-container h2 {
+    margin: 0px;
+}
