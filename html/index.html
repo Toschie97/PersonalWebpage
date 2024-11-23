@@ -8,46 +8,56 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="header-container">
         <!-- LH Logo -->
-        <div>
+        <div class="logo">
           <img src="../assets/images/Logo/LHSquareLogo.svg" alt="" />
         </div>
 
         <!-- Header Navigation Links -->
         <nav>
-          <a href="">Home</a>
-          <a href="">About Me</a>
-          <a href="">Portfolio</a>
-          <a href="">Contact</a>
-          <a href="">Hire Me</a>
+          <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Hire Me</a></li>
+          </ul>
         </nav>
+        
         <!-- Social Media Icons -->
-        <img src="../assets/images/Icons/LinkedInLogo.svg" alt="" />
-        <img src="../assets/images/Icons/GithubLogo.svg" alt="" />
-        <img src="../assets/images/Icons/FigmaLogo.svg" alt="" />
+        <div class="social-icons">
+          <img src="../assets/images/Icons/LinkedInLogo.svg" alt="" />
+          <img src="../assets/images/Icons/GithubLogo.svg" alt="" />
+          <img src="../assets/images/Icons/FigmaLogo.svg" alt="" />
+        </div>
+
+        <div>
+          <img src="../assets/images/Utility/HeaderDivider.svg" alt="">
+        </div>
       </div>
     </header>
 
     <main>
-      <p>Hi, I'm Lachlan Hulme.</p>
-      <p>
-        Aspiring analytics professional, passionate learner & socially focused.
-      </p>
-      <img src="../assets/images/Headshot/HeadshotBordered.svg" alt="" />
-      <img src="../assets/images/Utility/SmallHorizontalLine.svg" alt="" />
-      <img src="../assets/images/Utility/SmallHorizontalLine.svg" alt="" />
-      <h1>Analytics, For A Cause.</h1>
-      <p>
-        Analytics isnt just for Big-Tech or large Multi-Nationals companies. Im
-        passionate about contributing to organisations with a social cause,
-        particularly NGOs,to provide them with better outcomes in a data driven
-        manner.
-      </p>
-      <img
-        src="../assets/images/Utility/LargeRectangleGradientBorder.svg"
-        alt=""
-      />
-    </main>
+      <section class="hero">
+        <div class="intro">
+          <p>Hi, I'm Lachlan Hulme.</p>
+          <p>Aspiring analytics professional, passionate learner & socially focused.</p>
+        </div>
+        <div class="profile-image">
+          <img src="../assets/images/Headshot/HeadshotBordered.svg" alt="Headshot of Lachlan" />
+        </div>
+      </section>
+    
+      <section class="highlighted-section">
+        <img src="../assets/images/Utility/LargeRectangleGradientBorder.svg" alt="" class="gradient-border-square">
+        <h1>Analytics, For A Cause.</h1>
+        <p>
+          Analytics isn't just for Big-Tech or large Multi-National companies.
+          I'm passionate about contributing to organisations with a social cause,
+          particularly NGOs, to provide them with better outcomes in a data-driven manner.
+        </p>
+      </section>
+    </main>    
   </body>
 </html>
