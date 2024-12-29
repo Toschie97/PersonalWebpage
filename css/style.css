@@ -1,22 +1,147 @@
+/* HTML High Level Sections */
+
+body {
+  margin: 0;
+  padding-top: 100;
+}
+
+/* Navigation bar */
+
 .logo-front {
   width: 100px;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
-.header-master-container {
+.logo-front:hover {
+  opacity: 75%;
+}
+
+.header-master-container{
   display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: space-between; /* Space between the logo and socials */
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding: 0;
+  border: 0;
+  width: 100%;
 }
 
 .top-navigation {
   display: flex;
-  gap: 2em; /* Spacing between links */
-  margin: 0 auto; /* Centers the navigation within the flex container */
+  align-items: center;
+  justify-content: center;
+}
+
+.top-navigation ul{
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.top-navigation li{
+  float: left;
+}
+
+.top-navigation a{
+  float: left;
+  display: block;
+  padding: 8px;
+  text-decoration-line: none;
+  color: rgb(205, 97, 42);
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.top-navigation a:hover{
+  color: rgb(204, 164, 144);
 }
 
 .socials {
+  scale: 125%;
   display: flex;
-  gap: 2em; /* Spacing between social icons */
+  align-items: center;
+  justify-content: center;
+  gap: 1.25em;
+}
+
+/* Hero Section*/
+
+.hero-master-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  padding: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: rgb(255, 248, 238);
+  gap: 2em;
+  font-family: fantasy;
+  color: #231F19;
+}
+
+
+.sitting-computer {
+  width: 200px;
+  height: auto;
+  display: flex;
+}
+
+.greeting {
+  font-size: 2em;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2em;
+}
+
+.motto {
+  font-size: 1.25em;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  line-height: 1.75em;
+  text-align: center;
+}
+
+/*Skills & Experience Section*/
+
+.skills-and-experience-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  line-height: 2em;
+}
+
+.skills-and-experience-text h1{
+  font-family: fantasy;
+}
+
+.skills-and-experience-text p{
+  font-family: fantasy;
+  text-align: center;
+}
+
+.skills-and-experience-icons-master-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
