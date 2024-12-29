@@ -65,6 +65,8 @@ body {
 
 .top-navigation a:hover{
   color: rgb(204, 164, 144);
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .socials {
@@ -83,7 +85,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 50px;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -141,6 +143,7 @@ body {
 }
 
 .skills-and-experience-icons-master-container {
+  scale: 75%;
   display: flex;
   align-items: center;
   justify-content: center;
