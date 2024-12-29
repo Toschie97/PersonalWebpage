@@ -3,6 +3,7 @@
     align-items: center; /* Vertically align all child elements */
     justify-content: center; /* Space out the logo and nav-links */
     padding: 0 20px; /* Add horizontal padding */
+    background-color: rgb(238, 238, 238);
   }
 
 .nav-links ul {
